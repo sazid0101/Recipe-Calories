@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_img": "https://i.ibb.co.com/bRB2vB5F/mixed-pizza-with-various-ingridients.jpg",
+      "recipe_id": 101,
+      "recipe_name": "Veggie pizza",
+      "short_description": "A quick and flavorful chicken stir fry with soy sauce and vegetables.",
+      "ingredient": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+      "preparing_time": 30,
+      "calories": 320
+    },
+    {
+      "recipe_img": "https://i.ibb.co.com/SXkDdKbm/caesar-salad-with-croutons.jpg",
+      "recipe_id": 102,
+      "recipe_name": "Salad",
+      "short_description": "Rich and creamy pasta infused with garlic and parmesan cheese.",
+      "ingredient": ["300 g pasta", "200 ml heavy cream", "100 g parmesan cheese", "50 g garlic"],
+      "preparing_time": 25,
+      "calories": 450
+    },
+    {
+      "recipe_img": "https://i.ibb.co.com/B2TPK89C/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg",
+      "recipe_id": 103,
+      "recipe_name": "creamy garlic pasta",
+      "short_description": "A healthy and delicious grilled salmon with lemon butter sauce.",
+      "ingredient": ["2 salmon fillets", "1 lemon", "50 g butter", "10 g black pepper"],
+      "preparing_time": 20,
+      "calories": 380
+    },
+    {
+      "recipe_img": "https://i.ibb.co.com/YTFbrdnv/ai-generated-pasta-food.jpg",
+      "recipe_id": 104,
+      "recipe_name": "Pasta",
+      "short_description": "A crispy homemade pizza loaded with fresh vegetables and mozzarella cheese.",
+      "ingredient": ["1 pizza base", "100 g mozzarella cheese", "50 g bell peppers", "50 g mushrooms"],
+      "preparing_time": 35,
+      "calories": 500
+    },
+    {
+      "recipe_img": "https://i.ibb.co.com/mCbKsvXS/wooden-board-with-tasty-cooked-meat.jpg",
+      "recipe_id": 105,
+      "recipe_name": "Beef Stake",
+      "short_description": "A refreshing mango smoothie blended with yogurt and honey.",
+      "ingredient": ["2 ripe mangoes", "200 ml yogurt", "50 ml honey", "100 ml milk"],
+      "preparing_time": 10,
+      "calories": 220
+    },
+    {
+      "recipe_img": "https://i.ibb.co.com/vx2xQjQG/juicy-cheeseburger-rustic-wooden-board.jpg",
+      "recipe_id": 106,
+      "recipe_name": "Cheese Burger",
+      "short_description": "Classic beef tacos with spicy seasoning and fresh toppings.",
+      "ingredient": ["300 g ground beef", "100 g taco shells", "50 g lettuce", "50 g cheddar cheese"],
+      "preparing_time": 25,
+      "calories": 430
+    }
+  ]
+  
