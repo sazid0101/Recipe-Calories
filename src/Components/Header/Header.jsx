@@ -18,7 +18,7 @@ const Header = () => {
             </div>
 
             <div className='flex '>
-                   <input className='border-2 h-8 bg-gray-100  mr-2 mt-2 rounded-lg' type="search" required placeholder="Search"/>
+                   <input className=' h-8 bg-gray-100  mr-2 mt-2 rounded-lg  focus:outline-none focus:ring-2 focus:ring-blue-500 pl-2' type="search" required placeholder="Search"/>
 
                 <div className='w-11 h-auto'>
                    <img src={profile} alt="" srcset="" />
