@@ -11,10 +11,10 @@ const Header = () => {
             </div>
             
             <div className="flex space-x-5 underline text-green-900 mt-2 font-bold">
-                <h3><a href="">Home</a></h3>
-                <h3><a href="">Recipes</a></h3>
-                <h3><a href="">About</a></h3>
-                <h3><a href="">Search</a></h3>
+                <h3 className='hover:scale-110 hover:text-purple-900'><a href="">Home</a></h3>
+                <h3 className='hover:scale-110 hover:text-sky-500'><a href="">Recipes</a></h3>
+                <h3 className='hover:scale-110 hover:text-teal-600'><a href="">About</a></h3>
+                <h3 className='hover:scale-110 hover:text-blue-700'><a href="">Search</a></h3>
             </div>
 
             <div className='flex '>
