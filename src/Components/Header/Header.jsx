@@ -1,12 +1,16 @@
 import React from 'react';
 import './Header.css'
-import profile from '../../assets/images/profile.jpg'
+import profile from '../../assets/images/profile1.jpg'
+import logo from '../../assets/images/logo.png'
 const Header = () => {
     return (
         <div className="header-file justify-between m-5 bg-lime-200 p-1 rounded-lg">
-            <h1 className='font-bold text-2xl mt-2'>Recipe Calories</h1>
+            <div className='flex'>
+                <img className='w-12 h-auto' src={logo} alt="" />
+                <h1 className=' text-green-900 font-bold text-2xl mt-2'>Recipe Calories</h1>
+            </div>
             
-            <div className="flex space-x-4 underline text-green-900 mt-2 font-bold">
+            <div className="flex space-x-5 underline text-green-900 mt-2 font-bold">
                 <h3><a href="">Home</a></h3>
                 <h3><a href="">Recipes</a></h3>
                 <h3><a href="">About</a></h3>
@@ -14,9 +18,9 @@ const Header = () => {
             </div>
 
             <div className='flex '>
-                   <input className='border-2 h-8 bg-gray-100  mr-5 mt-2 rounded-lg' type="search" required placeholder="Search"/>
+                   <input className='border-2 h-8 bg-gray-100  mr-2 mt-2 rounded-lg' type="search" required placeholder="Search"/>
 
-                <div className='w-7'>
+                <div className='w-11 h-auto'>
                    <img src={profile} alt="" srcset="" />
                 </div>
             </div>

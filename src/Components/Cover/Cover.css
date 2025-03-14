@@ -1,0 +1,12 @@
+.cover-img {
+    background-image: url("../../assets/images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    border-radius: 20px;
+  }
+  /* .hero-overlay{
+    justify-content: center;
+    justify-items: center;
+  } */
