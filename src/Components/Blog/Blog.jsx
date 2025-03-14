@@ -7,6 +7,10 @@ const Blog = ({blog}) => {
             <img className='rounded-lg' src={recipe_img} alt="" />
             <h1>{recipe_name}</h1>
             <p>{short_description}</p>
+            <div className="p-4 border-b border-gray-400"></div>
+            <h3>Ingredients:</h3>
+
+            <button className="bg-teal-500 text-white rounded-full px-5 py-2 font-bold text-lg">Want to Cook</button>
         </div>
     );
 };
