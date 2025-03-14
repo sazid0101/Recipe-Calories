@@ -4,6 +4,7 @@ import Cover from './Components/Cover/Cover'
 import Header from './Components/Header/Header'
 import Text from './Components/Text/Text'
 import Blogs from './Components/Blogs/Blogs'
+import Cook from './Components/Cook/Cook'
 
 function App() {
   
@@ -15,7 +16,10 @@ function App() {
       <Cover></Cover>
       
       <Text></Text>
-      <Blogs></Blogs>
+      <div className='md:flex m-5'>
+        <Blogs></Blogs>
+        <Cook></Cook>
+      </div>
       
       
     </>

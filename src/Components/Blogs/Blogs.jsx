@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from 'react';
-
+import Blog from '../Blog/Blog';
 const Blogs = () => {
-    const [blogs, setblogs] = useState([])
+    const [blogs, setBlogs] = useState([])
 
     useEffect(()=>{
         fetch("Recipe.json")
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setBlogs(data))
+        // console.log(data)
     },[])
     return (
-        <div>
-            
+        <div className='md:w-2/3 grid grid-cols-2 gap-2'>
+            {
+                blogs.map((blog, idx) => <Blog blog ={blog} key={idx}></Blog>)
+            }
         </div>
     );
 };
