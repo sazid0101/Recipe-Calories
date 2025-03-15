@@ -6,6 +6,7 @@ import Text from './Components/Text/Text'
 import Blogs from './Components/Blogs/Blogs'
 import Cook from './Components/Cook/Cook'
 import About from './Components/About/About'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
         <Cook></Cook>
       </div>
       <About></About>
+      <Footer></Footer>
       
       
     </>

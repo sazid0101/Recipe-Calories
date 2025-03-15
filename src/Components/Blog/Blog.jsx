@@ -7,11 +7,11 @@ const Blog = ({blog}) => {
     return (
         <div className='w-100 border-2 p-5 m-5  rounded-2xl bg-slate-100 shadow-xl'>
             <img className='rounded-lg' src={recipe_img} alt="" />
-            <p>Recipe Id: {recipe_id}</p>
+            <p className='mt-2'>Recipe Id: {recipe_id}</p>
             <h1 className='text-xl font-bold'>{recipe_name}.</h1>
             <p>{short_description}</p>
             <div className="p-2 border-b border-gray-400"></div>
-            <h3 className='font-bold'>Ingredients:{ingredient.length}</h3>
+            <h3 className='font-bold'>Ingredients: {ingredient.length}</h3>
 
             {
                 ingredient.map(item => <ul><li>• {item}</li></ul>)
@@ -21,11 +21,11 @@ const Blog = ({blog}) => {
             <div className='flex justify-between mt-1'>
                 <div className='flex items-center'>
                     <BiAlarm></BiAlarm> 
-                    <p >{preparing_time} minutes</p>
+                    <p className='pl-2'>{preparing_time} minutes</p>
                 </div>
                 <div className='flex items-center'>
                     <RiFireLine></RiFireLine>
-                    <p>{calories} calories</p>
+                    <p className='pl-2'>{calories} calories</p>
                 </div>
             </div>
 
