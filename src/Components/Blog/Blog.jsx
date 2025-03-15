@@ -28,7 +28,7 @@ const Blog = ({blog}) => {
                     <p>{calories} calories</p>
                 </div>
             </div>
-            
+
             <button className="bg-teal-500 text-white rounded-full px-5 py-2 font-bold text-lg mt-5">Want to Cook</button>
         </div>
     );

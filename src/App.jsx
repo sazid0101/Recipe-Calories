@@ -5,6 +5,7 @@ import Header from './Components/Header/Header'
 import Text from './Components/Text/Text'
 import Blogs from './Components/Blogs/Blogs'
 import Cook from './Components/Cook/Cook'
+import About from './Components/About/About'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
         <Blogs></Blogs>
         <Cook></Cook>
       </div>
+      <About></About>
       
       
     </>
