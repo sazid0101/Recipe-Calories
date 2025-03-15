@@ -7,9 +7,15 @@ import Blogs from './Components/Blogs/Blogs'
 import Cook from './Components/Cook/Cook'
 import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
+import { useState } from 'react'
 
 function App() {
-  
+  const [cook, setCook] = useState([])
+
+  const handleCook = recipeItam =>{
+    const newCook = [...cook,recipeItam]
+    setCook(newCook)
+  }
 
   return (
     <>
@@ -19,8 +25,8 @@ function App() {
       
       <Text></Text>
       <div className='md:flex m-5'>
-        <Blogs></Blogs>
-        <Cook></Cook>
+        <Blogs handleCook={handleCook}></Blogs>
+        <Cook cook={cook}></Cook>
       </div>
       <About></About>
       <Footer></Footer>

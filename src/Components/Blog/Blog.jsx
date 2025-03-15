@@ -2,7 +2,7 @@ import React from 'react';
 import { BiAlarm } from "react-icons/bi";
 import { RiFireLine } from "react-icons/ri";
 
-const Blog = ({blog}) => {
+const Blog = ({blog, handleCook}) => {
     const {recipe_img,recipe_id, recipe_name, short_description,ingredient,preparing_time,calories } = blog;
     return (
         <div className='w-100 border-2 p-5 m-5  rounded-2xl bg-slate-100 shadow-xl'>
@@ -14,7 +14,7 @@ const Blog = ({blog}) => {
             <h3 className='font-bold'>Ingredients: {ingredient.length}</h3>
 
             {
-                ingredient.map(item => <ul><li>• {item}</li></ul>)
+                ingredient.map((item) => <ul> <li>• {item}</li></ul>)
             }
             <div className="p-2 border-b border-gray-400"></div>
 
@@ -29,7 +29,7 @@ const Blog = ({blog}) => {
                 </div>
             </div>
 
-            <button className="bg-teal-500 text-white rounded-full px-5 py-2 font-bold text-lg mt-5">Want to Cook</button>
+            <button onClick={()=>handleCook(blog)} className="bg-teal-500 text-white rounded-full px-5 py-2 font-bold text-lg mt-5">Want to Cook</button>
         </div>
     );
 };
