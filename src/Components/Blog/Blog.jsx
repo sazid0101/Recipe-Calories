@@ -14,7 +14,7 @@ const Blog = ({blog, handleCook}) => {
             <h3 className='font-bold'>Ingredients: {ingredient.length}</h3>
 
             {
-                ingredient.map((item) => <ul> <li>• {item}</li></ul>)
+                ingredient.map((item,idx ) => <ul  key={idx}> <li>• {item}</li></ul>)
             }
             <div className="p-2 border-b border-gray-400"></div>
 

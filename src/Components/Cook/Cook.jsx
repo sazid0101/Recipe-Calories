@@ -7,7 +7,7 @@ const Cook = ({cook}) => {
             <h1 className='text-2xl font-bold justify-center flex mt-2'>Want to cook: {cook.length}</h1>
             <div className="p-2 border-b border-gray-400"></div>
             {
-                cook.map(singleRecipe =><Recipe singleRecipe={singleRecipe}></Recipe>)
+                cook.map((singleRecipe,idx ) =><Recipe singleRecipe={singleRecipe} key={idx}></Recipe>)
             }
         </div>
     );
