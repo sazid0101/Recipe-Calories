@@ -1,7 +1,8 @@
 import React from 'react';
 import './Header.css'
-import profile from '../../assets/images/profile1.jpg'
+// import profile from '../../assets/images/profile1.jpg'
 import logo from '../../assets/images/logo.png'
+import { CgProfile } from "react-icons/cg";
 const Header = () => {
     return (
         <div className="header-file justify-between m-5 bg-lime-200 p-1 rounded-lg">
@@ -17,11 +18,12 @@ const Header = () => {
                 <h3 className='hover:scale-110 hover:text-blue-700'><a href="">Search</a></h3>
             </div>
 
-            <div className='flex '>
+            <div className='flex items-center'>
                    <input className=' h-8 bg-gray-100  mr-2 mt-2 rounded-lg  focus:outline-none focus:ring-2 focus:ring-blue-500 pl-2' type="search" required placeholder="Search"/>
 
-                <div className='w-11 h-auto'>
-                   <img src={profile} alt="" srcSet="" />
+                <div className='mr-3'>
+                   {/* <img src={profile} alt="" srcSet="" /> */}
+                   <CgProfile></CgProfile>
                 </div>
             </div>
         </div>

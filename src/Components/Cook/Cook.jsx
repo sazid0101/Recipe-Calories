@@ -1,5 +1,6 @@
 import React from 'react';
 import Recipe from '../Recipe/Recipe';
+import CurrentlyCooking from '../CurrentlyCooking/CurrentlyCooking';
 
 const Cook = ({cook}) => {
     return (
@@ -9,6 +10,7 @@ const Cook = ({cook}) => {
             {
                 cook.map((singleRecipe,idx ) =><Recipe singleRecipe={singleRecipe} key={idx}></Recipe>)
             }
+            <CurrentlyCooking></CurrentlyCooking>
         </div>
     );
 };
