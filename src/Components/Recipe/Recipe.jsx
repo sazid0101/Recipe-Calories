@@ -1,7 +1,10 @@
-import React from 'react';
 
+import CurrentlyCooking from '../CurrentlyCooking/CurrentlyCooking';
 const Recipe = ({singleRecipe}) => {
     const {recipe_name,preparing_time,calories} = singleRecipe
+
+   
+
     return (
          <div>
             <div className='flex justify-around my-5 items-center'>
@@ -21,7 +24,9 @@ const Recipe = ({singleRecipe}) => {
             
         </div>
         <div className=" border-b border-gray-400"></div>
+        
          </div>
+         
     );
 };
 
